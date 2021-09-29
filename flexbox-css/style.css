@@ -1,0 +1,16 @@
+/*flex container - elemento inicia
+    flex item - são os filhos desse container
+
+    O html segue uma orientação vertical e os itens ocupam todo o espaço disponivel dentro do container. 
+    Com display flex a orientação passa a ser horizontal e o item ocupa apenas o necessário
+*/
+.flex{
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+    /*display: flex;/*respeita o tamanho proporcional do conteudo e a orientação em linha*/
+}
+.item{
+    background-color: aqua;
+    margin: 5px;
+}
