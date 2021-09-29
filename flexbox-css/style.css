@@ -3,14 +3,69 @@
 
     O html segue uma orientação vertical e os itens ocupam todo o espaço disponivel dentro do container. 
     Com display flex a orientação passa a ser horizontal e o item ocupa apenas o necessário
+
+    flex direction - estabele o eixo principal do container
+        row - padrão da esquerda para direita
+        row-reverse - da direita para esquerda
+
+        column - ordenação de cima para baixo
+        column-reverse - de baixo para cima
 */
 .flex{
     max-width: 300px;
     padding: 10px;
     border: 2px solid black;
-    /*display: flex;/*respeita o tamanho proporcional do conteudo e a orientação em linha*/
+    display: flex;/*respeita o tamanho proporcional do conteudo e a orientação em linha*/
 }
 .item{
     background-color: aqua;
     margin: 5px;
+}
+
+.flex-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.flex-item{
+    background: blue;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+.row-reverse li{
+    background-color: red;
+}
+
+.column{
+    float: left;
+    flex-direction: column;
+}
+
+.column li{
+    background-color: green;
+}
+
+.column-reverse{
+    float: right;
+    flex-direction: column-reverse;
+}
+
+.column-reverse li{
+    background-color: grey;
 }
