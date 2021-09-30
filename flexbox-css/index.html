@@ -9,40 +9,29 @@
     <title>flexbox</title>
 </head>
 <body>
-    <div class="flex">
-        <div class="item">item 1</div>
-        <div class="item">item 2</div>
-        <div class="item">item 3</div>
+    <h1>NO WRAP</h1>
+    <div class="flex-container">
+        <div class="item orange">item 1</div>
+        <div class="item green">item 2</div>
+        <div class="item blue">item 3</div>
+        <div class="item orange">item 4</div>
     </div>
-    <div>
-        <ul class="flex-container row">
-            <li class="flex-item">1</li>
-            <li class="flex-item">2</li>
-            <li class="flex-item">3</li>
-            <li class="flex-item">4</li>
-            <li class="flex-item">5</li>
-        </ul>
-        <ul class="flex-container row-reverse">
-            <li class="flex-item">1</li>
-            <li class="flex-item">2</li>
-            <li class="flex-item">3</li>
-            <li class="flex-item">4</li>
-            <li class="flex-item">5</li>
-        </ul>
-        <ul class="flex-container column">
-            <li class="flex-item">1</li>
-            <li class="flex-item">2</li>
-            <li class="flex-item">3</li>
-            <li class="flex-item">4</li>
-            <li class="flex-item">5</li>
-        </ul>
-        <ul class="flex-container column-reverse">
-            <li class="flex-item">1</li>
-            <li class="flex-item">2</li>
-            <li class="flex-item">3</li>
-            <li class="flex-item">4</li>
-            <li class="flex-item">5</li>
-        </ul>
+    
+    <h1>WRAP</h1>
+    <div class="flex-container wrap">
+        <div class="item orange">item 1</div>
+        <div class="item green">item 2</div>
+        <div class="item blue">item 3</div>
+        <div class="item green">item 4</div>
+    </div>
+
+    <h1>WRAP-REVERSE</h1>
+    <div class="flex-container wrap-reverse">
+        <div class="item orange">item 1</div>
+        <div class="item blue">item 2</div>
+        <div class="item green">item 3</div>
+        <div class="item green">item 4</div>
+        <div class="item orange">item 5</div>
     </div>
 </body>
 </html>

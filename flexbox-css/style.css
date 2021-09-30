@@ -1,71 +1,43 @@
-/*flex container - elemento inicia
-    flex item - são os filhos desse container
-
-    O html segue uma orientação vertical e os itens ocupam todo o espaço disponivel dentro do container. 
-    Com display flex a orientação passa a ser horizontal e o item ocupa apenas o necessário
-
-    flex direction - estabele o eixo principal do container
-        row - padrão da esquerda para direita
-        row-reverse - da direita para esquerda
-
-        column - ordenação de cima para baixo
-        column-reverse - de baixo para cima
+/*
+    flex-wrap são quebras de linha dentro do container 
+    nowrap é o padrão, não permite a quebra de linha
+    wrap permite a quebra de linha para comportar itens dentro do container
+    wrap-reverse o item ao invez se ir para a linha de baixo, irá para linha de cima
 */
-.flex{
-    max-width: 300px;
-    padding: 10px;
-    border: 2px solid black;
-    display: flex;/*respeita o tamanho proporcional do conteudo e a orientação em linha*/
-}
-.item{
-    background-color: aqua;
-    margin: 5px;
-}
-
 .flex-container{
-    margin: 0;
-    padding: 0;
     display: flex;
-    list-style: none;
-}
-
-.flex-item{
-    background: blue;
-    height: 50px;
-    width: 50px;
-    line-height: 50px;
-    font-size: 20px;
-    color: white;
-    text-align: center;
-    margin: 5px;
-}
-
-.row{
+    height: 150px;
+    border: 2px solid black;
+    max-width: 300px;
     flex-direction: row;
 }
 
-.row-reverse{
-    flex-direction: row-reverse;
+.item{
+    font-size: 24px;
+    height: 50%;
+    text-align: center;
+    width: 100px;
+    line-height: 50px;
+    min-width: 100px;
 }
 
-.row-reverse li{
-    background-color: red;
+.nowrap{
+    flex-wrap: nowrap;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.wrap-reverse{
+    flex-wrap: wrap-reverse;
 }
 
-.column{
-    float: left;
-    flex-direction: column;
-}
 
-.column li{
+.blue{
+    background-color: blue;
+}
+.green{
     background-color: green;
 }
-
-.column-reverse{
-    float: right;
-    flex-direction: column-reverse;
-}
-
-.column-reverse li{
-    background-color: grey;
+.orange{
+    background-color: orange;
 }
