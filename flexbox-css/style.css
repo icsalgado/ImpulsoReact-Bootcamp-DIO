@@ -9,7 +9,7 @@
     height: 150px;
     border: 2px solid black;
     max-width: 300px;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .item{
