@@ -21,7 +21,7 @@ Repositório com a evolução do Bootcamp: DIO / Impulso React Web Developer
 
 ## Progresso no bootcamp
 
-<progress value="23" max="100" style=width:500px;></progress>
+<progress value="23" max="100" style=width:500px;>23% - 10 atividades de 42</progress>
 
 ## Sobre o projeto
 > Segundo a DIO o Bootcamp Impulso React Web Developer traz os principais fundamentos de React e JavaScript.
@@ -30,8 +30,9 @@ Repositório com a evolução do Bootcamp: DIO / Impulso React Web Developer
 
 ## Autor
 <p>Iuri de Carvalho Salgado</p>
-<img src="./assets/linkedinIcon.jpg" width=15px>
-<a href="https://www.linkedin.com/in/icsalgado/">Linkedin</a>
+
+<a href="https://www.linkedin.com/in/icsalgado/"><img src="./assets/linkedinIcon.jpg" width=15px> Linkedin</a>
+
 
 ## Agradecimento
 
