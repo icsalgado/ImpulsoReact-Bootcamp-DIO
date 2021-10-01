@@ -1,28 +1,47 @@
 /*
-    flex-flow é um atalho atalho para propriedades flex-direction e flex-wrap
+    Justify content - alinha os itens dentro do container e a distribuição de espaço entre eles
+    flex-start inicio do container
+    flex-end final do container
+    center ao centro do cotainer
+    space-between espaçamento igual entre os elementos
+    space-around espaços do meio são duas vezes maiores que o inicial e final
 */
+.flex-start{
+    justify-content: flex-start;
+}
 
-.flex-container{
-    display: flex;
-    border: 1px solid black;
-    max-width: 500px;
+.flex-end{
+    justify-content: flex-end;
+}
+
+.center{
+    justify-content: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.column{
+    flex-direction: column;
     height: 200px;
 }
 
-.wrap{
-    flex-flow: row wrap;
-}
-
-.default{
-    flex-flow: row nowrap;
+.container{
+    max-width: 400pc;
+    border: 1px solid black;
+    margin: 0;
+    display: flex;
 }
 
 .item{
     background-color: blueviolet;
     margin: 5px;
-    color: white;
     text-align: center;
-    width: 100px;
-    height: 50px;
-    line-height: 50px;
+    color: white;
 }
+
