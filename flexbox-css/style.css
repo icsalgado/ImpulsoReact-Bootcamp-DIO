@@ -1,55 +1,45 @@
 /*
-    Aling-items trata o alinhamento de acordo com eixo do container, linhas e colunas
-    center todos ao centro
-    stretch crescem igualmente com o maior conteudo
-    flex-star alinhamento no inicio
-    flex-end alinhamento no final
-    baseline relacionado a tipografia do item
+    Aling-content - tratamento do eixo vertical
+    A altura do container deve ser maior que a soma dos itens
+    center alinhamento ao centro
+    stretch alinhamento conforme o maior
+    flex-start alinhado no inicio
+    flex-end alinhado no fim
+    space-between espaço igual entre os elementos
+    space-around meio duas vezes maior que as pontas
+
 */
-.center{
-    align-items: center;
-}
-
 .stretch{
-    align-items: stretch;
+    align-content: stretch;
 }
-
+.center{
+    align-content: center;
+}
 .flex-start{
-    align-items: flex-start;
+    align-content: flex-start;
 }
-
 .flex-end{
-    align-items: flex-end;
+    align-content: flex-end;
 }
-
-.baseline{
-    align-items: baseline;
+.space-between{
+    align-content: space-between;
 }
-
-.column{
-    flex-direction: column;
+.space-around{
+    align-content: space-around;
 }
-
-.central{
-    height: 300px;
-    justify-content: center;
-}
-
-.central .item{
-    flex: 0;/*para zerar alguns parametros e o item não aumente automaticamente para respeitar o centro do container*/
-    padding: 20px;
-}
-
 .container{
-    max-width: 350px;
-    border: 1px solid black;
+    height: 500px;
+    max-width: 300px;
     display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
 }
 
 .item{
-    background-color: blueviolet;
-    margin: 5px;
-    color: white;
-    text-align: center;
+    background-color: orangered;
+    padding: 0 5px;
     flex: 1;
+    text-align: center;
+    color: white;
+    margin: 5px;
 }
