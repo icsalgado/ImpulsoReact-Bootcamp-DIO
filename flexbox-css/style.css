@@ -1,32 +1,38 @@
 /*
     Flex-grow - trata a proporcionalidade de crescimento de um item 
+    Flex-basis - tamanho inicial do item antes da distribuição de espaço restante dentro dele
+        auto: caso não tenha tamanho vai ser proporcional ao conteudo
+        px, %, em - valores exatos
+        0: terá relação com a definição do flex-grow
 
 */
-
-.fg-0{
-    flex-grow: 0;
+.bauto{/*flex basis auto*/
+    flex-basis: auto;
 }
+
+.bzero{
+    flex-basis: 0;
+}
+
+.bw{
+    flex-basis: 50px;
+}
+
 .fg-1{
     flex-grow: 1;
 }
-.fg-2{
-    flex-grow: 2;
-}
-.fg-3{
-    flex-grow: 3;
+
+.container{
+    max-width: 300px;
+    border: 2px solid black;
+    display: flex;
+    margin: 10px;
 }
 
-.flex-container{
-    display: flex;
-    border: 2px solid black;
-    max-width: 300px;
-    margin: 20px;
-}
 .item{
-    background-color: orangered;
-    margin: 5px;
-    padding: 10px;
-    text-align: center;
+    background-color: blue;
     color: white;
+    text-align: center;
+    margin: 5px;
 }
 
