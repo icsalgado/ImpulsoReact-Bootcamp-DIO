@@ -4,35 +4,32 @@
         auto: caso não tenha tamanho vai ser proporcional ao conteudo
         px, %, em - valores exatos
         0: terá relação com a definição do flex-grow
+    Flex-shrink - capacidade de redução ou compressão de um item
+        
 
 */
-.bauto{/*flex basis auto*/
-    flex-basis: auto;
+.s-1{
+    flex-shrink: 1;
 }
 
-.bzero{
-    flex-basis: 0;
-}
-
-.bw{
+.s-0{
+    flex-shrink: 0;
     flex-basis: 50px;
 }
 
 .fg-1{
     flex-grow: 1;
 }
-
 .container{
-    max-width: 300px;
-    border: 2px solid black;
     display: flex;
+    border: 2px solid black;
     margin: 10px;
+    max-width: 350px;
 }
 
 .item{
-    background-color: blue;
-    color: white;
-    text-align: center;
+    background-color: peru;
     margin: 5px;
+    font-size: 24px;
+    text-align: center;
 }
-
