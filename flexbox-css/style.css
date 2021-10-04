@@ -1,45 +1,32 @@
 /*
-    Aling-content - tratamento do eixo vertical
-    A altura do container deve ser maior que a soma dos itens
-    center alinhamento ao centro
-    stretch alinhamento conforme o maior
-    flex-start alinhado no inicio
-    flex-end alinhado no fim
-    space-between espaço igual entre os elementos
-    space-around meio duas vezes maior que as pontas
+    Flex-grow - trata a proporcionalidade de crescimento de um item 
 
 */
-.stretch{
-    align-content: stretch;
+
+.fg-0{
+    flex-grow: 0;
 }
-.center{
-    align-content: center;
+.fg-1{
+    flex-grow: 1;
 }
-.flex-start{
-    align-content: flex-start;
+.fg-2{
+    flex-grow: 2;
 }
-.flex-end{
-    align-content: flex-end;
-}
-.space-between{
-    align-content: space-between;
-}
-.space-around{
-    align-content: space-around;
-}
-.container{
-    height: 500px;
-    max-width: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    border: 1px solid black;
+.fg-3{
+    flex-grow: 3;
 }
 
+.flex-container{
+    display: flex;
+    border: 2px solid black;
+    max-width: 300px;
+    margin: 20px;
+}
 .item{
     background-color: orangered;
-    padding: 0 5px;
-    flex: 1;
+    margin: 5px;
+    padding: 10px;
     text-align: center;
     color: white;
-    margin: 5px;
 }
+
