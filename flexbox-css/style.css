@@ -1,6 +1,5 @@
 /*
-    flex
-      atalho para grow, shrink e basis nessa ordem  
+    Order
 */
 
 .container{
@@ -16,14 +15,15 @@
     font-size: 24px;
     text-align: center;
     margin: 5px;
-}
-
-.flex-1{
     flex: 1;
-    /* grow =1, shrink =1, basis =1*/
 }
 
-.flex-2{
-    flex: 2;
-    /* grow =2, shrink =1, basis =0*/
+.order-1{
+    order: 1;
+}
+.order-2{
+    order: 2;
+}
+.order-3{
+    order: 3;
 }
