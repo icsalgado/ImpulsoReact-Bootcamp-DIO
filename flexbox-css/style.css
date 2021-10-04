@@ -1,35 +1,29 @@
 /*
-    Flex-grow - trata a proporcionalidade de crescimento de um item 
-    Flex-basis - tamanho inicial do item antes da distribuição de espaço restante dentro dele
-        auto: caso não tenha tamanho vai ser proporcional ao conteudo
-        px, %, em - valores exatos
-        0: terá relação com a definição do flex-grow
-    Flex-shrink - capacidade de redução ou compressão de um item
-        
-
+    flex
+      atalho para grow, shrink e basis nessa ordem  
 */
-.s-1{
-    flex-shrink: 1;
-}
 
-.s-0{
-    flex-shrink: 0;
-    flex-basis: 50px;
-}
-
-.fg-1{
-    flex-grow: 1;
-}
 .container{
     display: flex;
     border: 2px solid black;
+    max-width: 400px;
     margin: 10px;
-    max-width: 350px;
 }
 
 .item{
-    background-color: peru;
-    margin: 5px;
+    background-color: blueviolet;
+    color: white;
     font-size: 24px;
     text-align: center;
+    margin: 5px;
+}
+
+.flex-1{
+    flex: 1;
+    /* grow =1, shrink =1, basis =1*/
+}
+
+.flex-2{
+    flex: 2;
+    /* grow =2, shrink =1, basis =0*/
 }
