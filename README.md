@@ -37,8 +37,6 @@ Repositório com a evolução do Bootcamp: DIO / Impulso React Web Developer
 <a href="https://github.com/icsalgado/ImpulsoReact-Bootcamp-DIO/tree/master/ProjetoFlexBoxKarenSantos">
     <img src="./assets/flexbox.jpg" width=15px> Posicionando elementos com Flexbox em CSS
 </a>
-![flexBox](https://github.com/icsalgado/ImpulsoReact-Bootcamp-DIO/blob/master/assets/flexBox.gif)
-
 
 ## Agradecimento
 
