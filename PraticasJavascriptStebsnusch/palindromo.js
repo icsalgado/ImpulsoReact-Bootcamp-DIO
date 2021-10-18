@@ -17,7 +17,9 @@ function verificaPalindromo(string) {
 }
 
 
-console.log("Palindromo solução 1");
+console.log(`
+Palindromo solução 1`);
 testePalindromo('abacaxi');
-console.log("Palindromo solução 2");
+console.log(`
+Palindromo solução 2`);
 verificaPalindromo('cat');

@@ -39,7 +39,7 @@ function verificaNumeros (numero1, numero2){
 
 }
 
-console.log("Sintaxe e Operadores");
+console.log(`Sintaxe e Operadores`);
 verificaNumeros(5, 5); //chamada da função com parametros
 verificaNumeros(10, 10);
 verificaNumeros(5, 10);
