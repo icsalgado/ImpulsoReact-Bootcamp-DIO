@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDom from "react-dom";
 import "./styles.css";
+import "./Button";
+import Button from "./Button";
 
 function primeiroJSX(){
     return (
@@ -21,6 +23,7 @@ const App = () => {
             {primeiroJSX()}
             {element}
             {element2}
+            <Button name="Componente botão" onClick={() => alert("Olá")} />
         </div>
     )
 }

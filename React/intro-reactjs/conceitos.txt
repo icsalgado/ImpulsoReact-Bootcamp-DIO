@@ -31,3 +31,5 @@ Configuração
             "eject": "react-scripts eject",
             "test": "echo \"Error: no test specified\" && exit 1"
         },
+
+Criar componentes com PascalCase e extensão .jsx
