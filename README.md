@@ -15,6 +15,7 @@ Repositório com a evolução do Bootcamp: DIO / Impulso React Web Developer
 - HTML
 - CSS
 - JavaScript
+- ReactJS
 
    </div>
  
@@ -22,7 +23,7 @@ Repositório com a evolução do Bootcamp: DIO / Impulso React Web Developer
 
 ## Progresso no bootcamp
 
-<progress value="59" max="100" style=width:500px;>59% - 25 atividades de 42</progress>
+<progress value="76" max="100" style=width:500px;>76% - 32 atividades de 42</progress>
 
 ## Sobre o projeto
 > Segundo a DIO o Bootcamp Impulso React Web Developer traz os principais fundamentos de React e JavaScript.
