@@ -33,3 +33,10 @@ Configuração
         },
 
 Criar componentes com PascalCase e extensão .jsx
+
+Estados e ciclo de vida do React
+    inicialização
+    montagem
+    atualização
+    desmontagem
+
