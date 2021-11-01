@@ -1,0 +1,64 @@
+Desenvolvimento de aplicações para internet com ReactJs
+Maneiras de estilização
+    inline
+        const divStyle = {
+            color: 'blue',
+            backgroundImage: 'url(' + imgUrl + ')'
+        };
+        function HelloWorldComponent(){
+            return <div stule={divStyle}>Hello World"</div>
+        }
+
+
+        function App(){
+            return(<HelloWorld style={{marginTop: '10px}} />
+            )
+        }
+
+
+        Prós
+            maneira pais praca e direta
+            ajustes rápidos
+            testes de estilo
+        Contra
+            mautenção em códigos grandes
+    classes
+        .div-style {
+            color: blue;
+        }
+
+        import './HelloWorldComponent.css';
+
+        function HelloWorldComponent() {
+            return <div className="div-style">Hello World!</div>;
+        }
+
+        contras
+            mais dificil de manter
+            pouca flexibilidade
+            conflito com nomes
+        pros
+            maneira mais direta
+    css in js
+        npm install --save styled-components
+
+        const DivStyle - styled.div`
+            color: blue;
+            background: url('${prps => props.imgageUrl}');
+        `;
+
+        function HelloWorldComponent(){
+            const url = 'https....';
+            return <DivStyle imageUrl={url}>Hello World!</DivStyle>
+        }
+        Prós    
+            manutenção
+                facilidade em remover css
+                estilos dinamicos
+            performance
+            injeção automatica de prefixos vendor
+
+Stateful vs stateless
+
+stateful - um componente usa estados
+stateless - componente não usa estados
