@@ -40,3 +40,21 @@ Estados e ciclo de vida do React
     atualização
     desmontagem
 
+Webpack é um module bundler - compactador de modulos para aplicações JS
+    conceitos
+            entry pint - utilizando grafos - precisa de um ponto de entrada para buscar os modulos e dependencias
+            Output - é para determinar quais são os bundlers que o webpack irá emitir
+            Loaders - gerenciar não apenas javascript
+            Plugins - otimização de pacotes
+            Mode - utilizado para abordagem de configuração zero possivel criar modulos como Production, Development ou none
+
+    comandos para criação do arqivo webpack.config.js
+    npm i -D webpack webpac! -cli
+    "build": "webpack --mode production"
+    npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
+
+Renderização condicional
+    variaveis de elementos
+    if inline com &&
+    if-else com operador condicional
+    evitando que um componente seja renderizado
